@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(214, 212, 212);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin:40px auto;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+div>input{
+padding:15px 16px;
+background-color: black;
+color:white;
+margin:20px;
+}
+div>p{
+    color:rgb(48, 148, 106);
+    font-size: x-large;
+    letter-spacing: 1px;
+    padding:10px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
